@@ -1,0 +1,61 @@
+.all{
+    width: 100%;
+    height:100%;
+}
+.ava{
+    width: 100%;
+    height:20%;
+    
+}
+.navs{
+    width:100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height:40%;
+}
+.conts{
+    width: 100%;
+    height:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:2;
+}
+.icon{
+    height:100%;
+    font-size:1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index:2;
+}
+.active{
+    color:#118bfa;
+}
+.noactive{
+    color:white;
+}
+// .before{
+//     content:'';
+//     position: absolute;
+//     left:0;
+//     background-color: white;
+//     height:45%;
+//     width:7px;
+//     border-top-right-radius: 5px;
+//     border-bottom-right-radius: 5px;
+// }
+.lp{
+    background-color: #118bfa;
+    border-radius: 15px;
+    position: absolute;
+    transition:.5s;
+}
